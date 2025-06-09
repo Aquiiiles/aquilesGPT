@@ -1,0 +1,22 @@
+# Diretório do modelo
+models/
+
+# Arquivos temporários do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ambiente virtual (caso use)
+venv/
+env/
+
+# Arquivos do sistema
+.DS_Store
+*.swp
+
+# Arquivos de configuração sensíveis
+.env
+
+# Cache de Jupyter ou outros
+.ipynb_checkpoints/
