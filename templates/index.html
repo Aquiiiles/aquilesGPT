@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AquilesGPT</title>
+</head>
+<body>
+    <h2>AquilesGPT - IA Local</h2>
+    <form method="post" action="/ask">
+        <input type="text" name="user_input" placeholder="Digite sua pergunta..." style="width: 300px;" required>
+        <button type="submit">Enviar</button>
+    </form>
+
+    {% if user_input %}
+        <p><strong>Você:</strong> {{ user_input }}</p>
+        <p><strong>AquilesGPT:</strong> {{ response }}</p>
+    {% endif %}
+</body>
+</html>
